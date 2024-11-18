@@ -2,8 +2,7 @@
   "editor.formatOnSave": true,
   "eslint.alwaysShowStatus": true,
   "eslint.validate": [
-    "javascript",
-    "html"
+    
   ],
   "eslint.lintTask.enable": true,
   "[javascript]": {
@@ -13,7 +12,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.eslint": true
   },
   "prettier.enable": true
 }
